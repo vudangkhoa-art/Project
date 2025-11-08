@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web của Tôi</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <nav>
+        <img src="logo.png" alt="Logo">
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="parks.html">Công viên</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <h1>Tiêu đề Nội dung Chính</h1>
+
+        <section class="grid">
+            <div>
+                <h2>Mục Grid 1</h2>
+                <img src="grid-img1.jpg" alt="Ảnh Grid 1">
+                <p>Nội dung.</p>
+            </div>
+            <div>
+                <h2>Mục Grid 2</h2>
+                <img src="grid-img2.jpg" alt="Ảnh Grid 2">
+                <p>Nội dung.</p>
+            </div>
+            </section>
+
+        <section class="flex">
+            <div>Nội dung Flex 1</div>
+            <div>Nội dung Flex 2</div>
+            <div>Nội dung Flex 3</div>
+            </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025</p>
+    </footer>
+
+</body>
+</html>
